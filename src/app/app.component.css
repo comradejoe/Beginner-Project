@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+}
+@keyframes example {
+  from {
+    background-color: rgb(89, 188, 201);
+  }
+  to {
+    background-color: yellow;
+  }
+}
+.fixed {
+  margin-left: 20%;
+  margin-top: 10%;
+  background-color: rgb(89, 188, 201);
+  width: 25%;
+  height: 30%;
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+}
+.flex-item {
+  margin-top: 10%;
+  margin-left: 20px;
+  background-color: rgb(89, 188, 201);
+  width: 25%;
+  height: 30%;
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+}
+.mat-content {
+  animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 4s;
+  padding-top: 20px;
+  margin-top: 5%;
+  margin-left: 38%;
+  background-color: rgb(41, 125, 136);
+  width: 20%;
+  height: 5%;
+  font-family: cursive;
+  font-size: medium;
+  font-weight: bold;
+}
