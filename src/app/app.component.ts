@@ -24,10 +24,9 @@ export class AppComponent {
 
       this.averageAge = sum / 30;
       console.log(this.averageAge);
-      // expected output: 81
+
       this.employee = data;
-      // console.log(this.employee.length)
-      // console.log(this.employee);
+
       this.employee.map((item) => {
         if (item.id == 1) {
           this.class1.push(item);
@@ -40,15 +39,13 @@ export class AppComponent {
         }
         if (item.country == "Cuba") {
           this.cuba.push(item);
-          // console.log(this.cuba);
+          // (this.cuba);
         }
         if (item.country == "India") {
           this.India.push(item);
-          // console.log(this.India);
         }
         if (item.country == "Spain") {
           this.Spain.push(item);
-          // console.log(this.Spain);
         }
       });
     });
