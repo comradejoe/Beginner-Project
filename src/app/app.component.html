@@ -1,4 +1,4 @@
-<div class="container">
+<div id="printPage" class="container">
   <mat-card class="fixed">
     <div>
       <span class="material-icons"> school </span> Total no.of.Students in Class
@@ -42,4 +42,10 @@
     ={{ averageAge }}
   </div>
 </mat-card>
+<div class="print-btn"> 
+  <button mat-raised-button color="warn" (click)="print()"><i class="material-icons">
+    picture_as_pdf
+  </i> Save as PDF </button>
+  
+</div>
 <router-outlet></router-outlet>
